@@ -1,6 +1,6 @@
 
 universal_app: x86_app arm_app
-	lipo -create -output bin/touch-auth bin/touch_x86 bin/touch_arm
+	lipo -create -output touch-auth bin/touch_x86 bin/touch_arm
 
 x86_app: main.swift
 	mkdir -p bin
