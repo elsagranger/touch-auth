@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>Label</key>
-        <string>com.github.theseal.ssh-askpass</string>
+        <string>com.github.theseal.touch-auth</string>
         <key>LimitLoadToSessionType</key>
         <string>Aqua</string>
         <key>ProgramArguments</key>
