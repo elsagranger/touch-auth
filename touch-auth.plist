@@ -12,7 +12,7 @@
             <string>-pc</string>
             <string>#!/bin/sh
 launchctl setenv SSH_ASKPASS "${SSH_ASKPASS:=/usr/local/bin/touch-auth}"
-launchctl setenv SUDO_ASKPASS "${SUDO_ASKPASS:=/usr/local/bin/touch-auth}"
+# launchctl setenv SUDO_ASKPASS "${SUDO_ASKPASS:=/usr/local/bin/touch-auth}"
 launchctl list org.xquartz.startx >/dev/null || launchctl setenv DISPLAY "${DISPLAY:=touch-auth}" # only if not already set by Xquartz
 launchctl stop com.openssh.ssh-agent # to make sure it picks up environment
             </string>
